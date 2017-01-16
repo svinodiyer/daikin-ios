@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		179972BC1E27943E00C1B818 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179972BB1E27943E00C1B818 /* AppDelegate.swift */; };
+		179972BE1E27943E00C1B818 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179972BD1E27943E00C1B818 /* ViewController.swift */; };
+		179972C31E27943E00C1B818 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 179972C21E27943E00C1B818 /* Assets.xcassets */; };
+		179972C61E27943E00C1B818 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 179972C41E27943E00C1B818 /* LaunchScreen.storyboard */; };
+		179972D11E27943E00C1B818 /* DiakinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179972D01E27943E00C1B818 /* DiakinTests.swift */; };
+		17D2910B1E2B424800454371 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D2910A1E2B424800454371 /* Queue.swift */; };
+		17D291391E2B9B6D00454371 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17D291381E2B9B6D00454371 /* Main.storyboard */; };
+		9D5EECC2E74CCBC3289EBE76 /* Pods_DiakinTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DA81A5BEE830E35C5A2783E /* Pods_DiakinTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		179972CD1E27943E00C1B818 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 179972B01E27943D00C1B818 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 179972B71E27943D00C1B818;
+			remoteInfo = Diakin;
+		};
+		17AC596D1E2ACC83002822A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17AC59621E2ACC83002822A5 /* MultiSegment.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DC72F6F0172167E9007E5CC6;
+			remoteInfo = MultiSegment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		179972B81E27943E00C1B818 /* Diakin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diakin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		179972BB1E27943E00C1B818 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		179972BD1E27943E00C1B818 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		179972C21E27943E00C1B818 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		179972C51E27943E00C1B818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		179972C71E27943E00C1B818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		179972CC1E27943E00C1B818 /* DiakinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiakinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		179972D01E27943E00C1B818 /* DiakinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiakinTests.swift; sourceTree = "<group>"; };
+		179972D21E27943E00C1B818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17AC59621E2ACC83002822A5 /* MultiSegment.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MultiSegment.xcodeproj; path = MultiSelectSegmentedControl/MultiSegment.xcodeproj; sourceTree = SOURCE_ROOT; };
+		17D2910A1E2B424800454371 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		17D291381E2B9B6D00454371 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4DA81A5BEE830E35C5A2783E /* Pods_DiakinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiakinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C817B11E4A364232E3F5BE /* Pods_Diakin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Diakin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		179972B51E27943D00C1B818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179972C91E27943E00C1B818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D5EECC2E74CCBC3289EBE76 /* Pods_DiakinTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01C3FBDFE990B7706932B15E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2C817B11E4A364232E3F5BE /* Pods_Diakin.framework */,
+				4DA81A5BEE830E35C5A2783E /* Pods_DiakinTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		179972AF1E27943D00C1B818 = {
+			isa = PBXGroup;
+			children = (
+				179972BA1E27943E00C1B818 /* Diakin */,
+				179972CF1E27943E00C1B818 /* DiakinTests */,
+				179972B91E27943E00C1B818 /* Products */,
+				01C3FBDFE990B7706932B15E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		179972B91E27943E00C1B818 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				179972B81E27943E00C1B818 /* Diakin.app */,
+				179972CC1E27943E00C1B818 /* DiakinTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		179972BA1E27943E00C1B818 /* Diakin */ = {
+			isa = PBXGroup;
+			children = (
+				179972BB1E27943E00C1B818 /* AppDelegate.swift */,
+				179972BD1E27943E00C1B818 /* ViewController.swift */,
+				179972C21E27943E00C1B818 /* Assets.xcassets */,
+				17D291381E2B9B6D00454371 /* Main.storyboard */,
+				179972C41E27943E00C1B818 /* LaunchScreen.storyboard */,
+				179972C71E27943E00C1B818 /* Info.plist */,
+				17D2910A1E2B424800454371 /* Queue.swift */,
+			);
+			path = Diakin;
+			sourceTree = "<group>";
+		};
+		179972CF1E27943E00C1B818 /* DiakinTests */ = {
+			isa = PBXGroup;
+			children = (
+				17AC59621E2ACC83002822A5 /* MultiSegment.xcodeproj */,
+				179972D01E27943E00C1B818 /* DiakinTests.swift */,
+				179972D21E27943E00C1B818 /* Info.plist */,
+			);
+			path = DiakinTests;
+			sourceTree = "<group>";
+		};
+		17AC59631E2ACC83002822A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17AC596E1E2ACC83002822A5 /* MultiSegment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		179972B71E27943D00C1B818 /* Diakin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 179972D51E27943E00C1B818 /* Build configuration list for PBXNativeTarget "Diakin" */;
+			buildPhases = (
+				179972B41E27943D00C1B818 /* Sources */,
+				179972B51E27943D00C1B818 /* Frameworks */,
+				179972B61E27943D00C1B818 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Diakin;
+			productName = Diakin;
+			productReference = 179972B81E27943E00C1B818 /* Diakin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		179972CB1E27943E00C1B818 /* DiakinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 179972D81E27943E00C1B818 /* Build configuration list for PBXNativeTarget "DiakinTests" */;
+			buildPhases = (
+				699BC56BB215DF7DCF7AFF79 /* [CP] Check Pods Manifest.lock */,
+				179972C81E27943E00C1B818 /* Sources */,
+				179972C91E27943E00C1B818 /* Frameworks */,
+				179972CA1E27943E00C1B818 /* Resources */,
+				1688402BDDD323881E2350EC /* [CP] Embed Pods Frameworks */,
+				44AB75489C5D947F5652320E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				179972CE1E27943E00C1B818 /* PBXTargetDependency */,
+			);
+			name = DiakinTests;
+			productName = DiakinTests;
+			productReference = 179972CC1E27943E00C1B818 /* DiakinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		179972B01E27943D00C1B818 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Vidya Inc.";
+				TargetAttributes = {
+					179972B71E27943D00C1B818 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZPDBATR25Q;
+						ProvisioningStyle = Automatic;
+					};
+					179972CB1E27943E00C1B818 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 179972B71E27943D00C1B818;
+					};
+				};
+			};
+			buildConfigurationList = 179972B31E27943D00C1B818 /* Build configuration list for PBXProject "Diakin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 179972AF1E27943D00C1B818;
+			productRefGroup = 179972B91E27943E00C1B818 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 17AC59631E2ACC83002822A5 /* Products */;
+					ProjectRef = 17AC59621E2ACC83002822A5 /* MultiSegment.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				179972B71E27943D00C1B818 /* Diakin */,
+				179972CB1E27943E00C1B818 /* DiakinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		17AC596E1E2ACC83002822A5 /* MultiSegment.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = MultiSegment.app;
+			remoteRef = 17AC596D1E2ACC83002822A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		179972B61E27943D00C1B818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D291391E2B9B6D00454371 /* Main.storyboard in Resources */,
+				179972C61E27943E00C1B818 /* LaunchScreen.storyboard in Resources */,
+				179972C31E27943E00C1B818 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179972CA1E27943E00C1B818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1688402BDDD323881E2350EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DiakinTests/Pods-DiakinTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44AB75489C5D947F5652320E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DiakinTests/Pods-DiakinTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		699BC56BB215DF7DCF7AFF79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		179972B41E27943D00C1B818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179972BE1E27943E00C1B818 /* ViewController.swift in Sources */,
+				17D2910B1E2B424800454371 /* Queue.swift in Sources */,
+				179972BC1E27943E00C1B818 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179972C81E27943E00C1B818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179972D11E27943E00C1B818 /* DiakinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		179972CE1E27943E00C1B818 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 179972B71E27943D00C1B818 /* Diakin */;
+			targetProxy = 179972CD1E27943E00C1B818 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		179972C41E27943E00C1B818 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				179972C51E27943E00C1B818 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		179972D31E27943E00C1B818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		179972D41E27943E00C1B818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		179972D61E27943E00C1B818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZPDBATR25Q;
+				INFOPLIST_FILE = Diakin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vidya.Diakin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		179972D71E27943E00C1B818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZPDBATR25Q;
+				INFOPLIST_FILE = Diakin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vidya.Diakin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		179972D91E27943E00C1B818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DiakinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vidya.DiakinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Diakin.app/Diakin";
+			};
+			name = Debug;
+		};
+		179972DA1E27943E00C1B818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DiakinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vidya.DiakinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Diakin.app/Diakin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		179972B31E27943D00C1B818 /* Build configuration list for PBXProject "Diakin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179972D31E27943E00C1B818 /* Debug */,
+				179972D41E27943E00C1B818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		179972D51E27943E00C1B818 /* Build configuration list for PBXNativeTarget "Diakin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179972D61E27943E00C1B818 /* Debug */,
+				179972D71E27943E00C1B818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		179972D81E27943E00C1B818 /* Build configuration list for PBXNativeTarget "DiakinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179972D91E27943E00C1B818 /* Debug */,
+				179972DA1E27943E00C1B818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 179972B01E27943D00C1B818 /* Project object */;
+}
